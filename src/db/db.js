@@ -1,8 +1,8 @@
-import dns from "dns";
+
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
-dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
 
 const connectDB = async () => {
   try {
